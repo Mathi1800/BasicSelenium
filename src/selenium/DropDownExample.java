@@ -15,6 +15,10 @@ public class DropDownExample {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.leafground.com/select.xhtml");
 
+		/*
+		 * selectByValue selectByIndex selectByvisibleText
+		 * 
+		 */
 		driver.manage().window().maximize();
 		//
 		WebElement dropDown = driver.findElement(By.xpath("//*[@id=\"j_idt87\"]/div/div[1]/div[1]/div/div/select"));
